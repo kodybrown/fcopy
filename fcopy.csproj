@@ -20,8 +20,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>Bricksoft.Developer.DosToys.FastFileCopy</RootNamespace>
     <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
-    <StartupObject>
-    </StartupObject>
+    <StartupObject>Bricksoft.Developer.DosToys.FastFileCopy.Program</StartupObject>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <UpgradeBackupLocation>
@@ -107,13 +106,13 @@
   <ItemGroup>
     <Content Include="App.ico" />
     <Compile Include="..\PowerCode\CommandLineArguments.cs">
-      <Link>PowerCode\CommandLineArguments.cs</Link>
+      <Link>CommandLineArguments.cs</Link>
     </Compile>
     <Compile Include="..\PowerCode\StringExtensions.cs">
-      <Link>PowerCode\StringExtensions.cs</Link>
+      <Link>StringExtensions.cs</Link>
     </Compile>
     <Compile Include="..\PowerCode\Text.cs">
-      <Link>PowerCode\Text.cs</Link>
+      <Link>Text.cs</Link>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
