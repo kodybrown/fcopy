@@ -24,7 +24,7 @@ namespace Bricksoft.Developer.DosToys.FastFileCopy
 	{
 		private const int INVALIDARGUMENTS = 1;
 
-		private CommandLineArguments args = null;
+		private CommandLine args = null;
 		//private string[] cmdLine = new string[] { };
 
 		private static string source = "";
@@ -49,7 +49,7 @@ namespace Bricksoft.Developer.DosToys.FastFileCopy
 
 		public fcopy( string[] arguments )
 		{
-			args = new CommandLineArguments(arguments);
+			args = new CommandLine(arguments);
 			if (args.Contains("debug")) {
 				System.Threading.Thread.Sleep(10000);
 			}
